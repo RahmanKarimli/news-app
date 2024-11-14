@@ -27,8 +27,8 @@ SECRET_KEY = env.str('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env.bool("DEBUG", default=False)
 
-ALLOWED_HOSTS = ['news-app-bizz.onrender.com/', 'localhost', '127.0.0.1']
-CSRF_TRUSTED_ORIGINS = ['https://news-app-bizz.onrender.com']
+ALLOWED_HOSTS = ['.onrender.com/', 'localhost', '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['.onrender.com']
 
 # Application definition
 
